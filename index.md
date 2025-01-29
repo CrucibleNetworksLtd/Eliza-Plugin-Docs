@@ -3,33 +3,23 @@ title: Home
 layout: home
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+The Eliza Plugin provides simple BP and C++ APIs for integrating the Eliza autonomous agent framework into Unreal Engine, enabling developers to leverage the capabilities of autonomous AI agents, enhancing gameplay experiences with dynamic AI interactions.
+Easy-to-use Blueprint async nodes and C++ events for Eliza for API communications with the Eliza Framework:
+* MessageAgent - Allows you to send messages to an agent running in your Eliza instance, returns the next message, and any actions data if it is present.
+* GetAgents - Returns an array of all the agents running in your Eliza instance.
+* GetAgentCharacter - Given an AgentId, returns details about a the character that agent is representing from its character file.
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+We are planning to add more features from Eliza v1, and to support Eliza v2 as it becomes available.
 
-More specifically, the created site:
+# Getting Started
+Please note that this plugin doesn't run an Eliza for you, but instead talks to an existing Eliza instance. You must have a running instance of accessible over HTTP either locally or on a server. You can learn how to set up Eliza with the [Eliza docs](https://elizaos.github.io/eliza/docs/intro/), or by [watching the excelent video tutorial series by Shaw](https://www.youtube.com/watch?v=ArptLpQiKfI&list=PLx5pnFXdPTRzWla0RaOxALTSTnVq53fKL). Make sure you have that working first before trying to use this plugin.
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+All of the functionality of this plugin is accessable via both Blueprints "Async Actions" and C++. 
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+The following pages document each async action:
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+## MessageAgent
 
-To get started with creating a site, simply:
+## GetAgents
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
-
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+## GetAgentCharacter
