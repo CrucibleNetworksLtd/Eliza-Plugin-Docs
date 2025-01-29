@@ -1,6 +1,7 @@
 ---
-title: *Home*
+title: Home
 layout: home
+nav_order: 0
 ---
 
 The Eliza Plugin provides simple BP and C++ APIs for integrating the Eliza autonomous agent framework into Unreal Engine, enabling developers to leverage the capabilities of autonomous AI agents, enhancing gameplay experiences with dynamic AI interactions.
