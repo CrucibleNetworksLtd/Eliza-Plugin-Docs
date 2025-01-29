@@ -1,5 +1,5 @@
 ---
-title: Home
+title: *Home*
 layout: home
 ---
 
@@ -18,8 +18,8 @@ All of the functionality of this plugin is accessable via both Blueprints "Async
 
 The following pages document each async action:
 
-## [MessageAgent](./APIs/MessageAgent.md)
+## [MessageAgent](./APIs/MessageAgent)
 
-## GetAgents
+## [GetAgents](./APIs/GetAgents)
 
-## GetAgentCharacter
+## [GetAgentCharacter](./APIs/GetAgentCharacter)
