@@ -3,9 +3,10 @@ title: MessageAgent
 layout: default
 ---
 
-!(MessageAgent.png)
+![](MessageAgent.png)
 
 # Inputs
+
 | - | - | - |
 |Type|Name|Description|
 |FString|AgentId|The ID string of the agent to send the message to.|
