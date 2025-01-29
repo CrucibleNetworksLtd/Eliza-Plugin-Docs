@@ -5,6 +5,8 @@ layout: default
 
 ![](MessageAgent.png)
 
+Sends a message to an agent.
+
 # Inputs
 
 | - | - | - |
