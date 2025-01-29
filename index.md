@@ -18,7 +18,7 @@ All of the functionality of this plugin is accessable via both Blueprints "Async
 
 The following pages document each async action:
 
-## MessageAgent
+## [MessageAgent](./APIs/MessageAgent.md)
 
 ## GetAgents
 
