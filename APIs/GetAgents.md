@@ -9,10 +9,7 @@ Returns an array of all the agents running in your Eliza instance.
 
 # Inputs
 
-| - | - | - |
-|Type|Name|Description|
-|FString|AgentId|The ID string of the agent to send the message to.|
-|FString|Message|The message to send to the agent.|
+None.
 
 # Outputs
 
