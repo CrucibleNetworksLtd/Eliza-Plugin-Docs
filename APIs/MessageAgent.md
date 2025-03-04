@@ -13,6 +13,7 @@ Sends a message to an agent.
 |Type|Name|Description|
 |FString|AgentId|The ID string of the agent to send the message to.|
 |FString|Message|The message to send to the agent.|
+|FString|Speaker|Who is the speaker of this message, who is talking. This is useful if you're trying to create a three-way (or more) conversation. Leave blank to be the default speaker.|
 |UElizaInstance\*|ElizaInstance|The Eliza instance to communicate with.|
 
 # Outputs
