@@ -12,6 +12,7 @@ Given an AgentId, returns details about a the character that agent is representi
 | - | - | - |
 |Type|Name|Description|
 |FString|AgentId|The ID string of the agent to get the character data of.|
+|UElizaInstance\*|ElizaInstance|The Eliza instance to communicate with.|
 
 # Outputs
 
@@ -24,6 +25,6 @@ Given an AgentId, returns details about a the character that agent is representi
 Module: `Eliza`
 include: `#include "GetAgentCharacter.h"`
 
-`UGetAgentCharacter::GetAgentCharacter()` - instantiates this async method.
+`UGetAgentCharacter::GetAgentCharacter(FString AgentId, UElizaInstance* ElizaInstance)` - instantiates this async method.
 `Activate()` - Activates this async method.
 In C++, the outputs of the async function can be acted upon by binding to the event delegate "`OnGetAgentCharacterCompleted`".

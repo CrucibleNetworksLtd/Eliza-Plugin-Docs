@@ -9,7 +9,9 @@ Returns an array of all the agents running in your Eliza instance.
 
 # Inputs
 
-None.
+| - | - | - |
+|Type|Name|Description|
+|UElizaInstance\*|ElizaInstance|The Eliza instance to communicate with.|
 
 # Outputs
 
@@ -22,6 +24,6 @@ None.
 Module: `Eliza`
 include: `#include "GetAgents.h"`
 
-`UGetAgents::GetAgents()` - instantiates this async method.
+`UGetAgents::GetAgents(UElizaInstance* ElizaInstance)` - instantiates this async method.
 `Activate()` - Activates this async method.
 In C++, the outputs of the async function can be acted upon by binding to the event delegate "`OnGetAgentsCompleted`".

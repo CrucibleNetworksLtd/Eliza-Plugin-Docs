@@ -13,6 +13,7 @@ Sends a message to an agent.
 |Type|Name|Description|
 |FString|AgentId|The ID string of the agent to send the message to.|
 |FString|Message|The message to send to the agent.|
+|UElizaInstance\*|ElizaInstance|The Eliza instance to communicate with.|
 
 # Outputs
 
@@ -27,6 +28,6 @@ Sends a message to an agent.
 Module: `Eliza`
 include: `#include "MessageAgent.h"`
 
-`UMessageAgent::MessageAgent()` - instantiates this async method.
+`UMessageAgent::MessageAgent(FString AgentId, FString Message, UElizaInstance* ElizaInstance)` - instantiates this async method.
 `Activate()` - Activates this async method.
 In C++, the outputs of the async function can be acted upon by binding to the event delegate "`OnMessageAgentCompleted`".
