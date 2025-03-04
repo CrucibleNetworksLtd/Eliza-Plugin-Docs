@@ -19,4 +19,4 @@ Eliza Instance assets are used by various methods and objects as a reference to 
 
 ![A new blockchain asset.](ElizaInstance.PNG)
 
-These assets can be used as the input to any function that takes a ElizaInstance. Alternatively, should you need to fill in the details of an ElizaInstance on the fly (or from C++), you can create them using the CreateElizaInstance method.
+These assets can be used as the input to any function that takes a ElizaInstance. Alternatively, should you need to fill in the details of an ElizaInstance on the fly (or from C++), you can create them using the [CreateElizaInstance](./APIs/CreateElizaInstance) method.
