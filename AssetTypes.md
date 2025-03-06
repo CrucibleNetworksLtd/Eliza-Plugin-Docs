@@ -1,7 +1,7 @@
 ---
-title: Asset Types
+title: Asset Types added by the Eliza Plugin
 description: Game assets for managing Eliza instances.
-parent: Unreal Plugin
+parent: Home
 layout: default
 ---
 

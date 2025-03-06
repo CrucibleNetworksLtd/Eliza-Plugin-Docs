@@ -1,6 +1,7 @@
 ---
 title: GetAgents
 layout: default
+parent: Home
 ---
 
 ![](GetAgents.png)

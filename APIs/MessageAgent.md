@@ -1,6 +1,7 @@
 ---
 title: MessageAgent
 layout: default
+parent: Home
 ---
 
 ![](MessageAgent.png)

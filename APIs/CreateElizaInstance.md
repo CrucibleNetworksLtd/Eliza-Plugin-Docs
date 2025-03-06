@@ -1,6 +1,7 @@
 ---
 title: CreateElizaInstance
 layout: default
+parent: Home
 ---
 
 ![](CreateElizaInstance.png)
