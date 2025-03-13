@@ -3,8 +3,13 @@ description: Everything you need to get started with Eliza Plugin!
 theme: just-the-docs
 color_scheme: eliza
 
-url: https://just-the-docs.github.io
-
+url: https://cruciblenetworksltd.github.io/Eliza-Plugin-Docs/
+gh_edit_link: true
+gh_edit_link_text: "Page wrong? Edit this page on GitHub!"
+gh_edit_repository: "https://github.com/CrucibleNetworksLtd/Eliza-Plugin-Docs"
+gh_edit_branch: "main"
+gh_edit_source: ""
+gh_edit_view_mode: "edit"
 aux_links:
   Find us on Fab: https://www.fab.com/listings/e82dfb26-a9bb-4e98-8068-42c7e78f561e
   Github: https://github.com/CrucibleNetworksLtd/Eliza-Plugin-Unreal
