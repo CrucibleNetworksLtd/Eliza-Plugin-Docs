@@ -1,6 +1,8 @@
 # Eliza Plugin Docs
 This is the repo for the Eliza plugin docs. If you think anything here is wrong, or want to contribute, make a Pull Request!
 
+You can find these docs at https://cruciblenetworksltd.github.io/Eliza-Plugin-Docs/
+
 ## Licensing and Attribution
 
 This repository (for the Eliza plugin docs) is licensed under the [MIT License]. The deployment GitHub Actions workflow is heavily based on GitHub's mixed-party [starter workflows]. A copy of their MIT License is available in [actions/starter-workflows].
